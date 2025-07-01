@@ -90,7 +90,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ['<img src="./assets/img/slider-arrow-left.svg" alt="">', '<img src="./assets/img/slider-arrow-right.svg" alt="">'],
+                navText: ['<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-left.svg" alt="">', '<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-right.svg" alt="">'],
             });
         }
 
@@ -108,7 +108,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ['<img src="./assets/img/slider-arrow-left.svg" alt="">', '<img src="./assets/img/slider-arrow-right.svg" alt="">'],
+                navText: ['<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-left.svg" alt="">', '<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-right.svg" alt="">'],
                 responsiveClass:true,
                 responsive:{
                     0:{
@@ -146,7 +146,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ['<img src="./assets/img/slider-arrow-left.svg" alt="">', '<img src="./assets/img/slider-arrow-right.svg" alt="">'],
+                navText: ['<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-left.svg" alt="">', '<img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/slider-arrow-right.svg" alt="">'],
             });
         }
 
@@ -172,4 +172,4 @@
     });
 
 
-}(jQuery));	
+}(jQuery));
