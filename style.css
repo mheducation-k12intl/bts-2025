@@ -1211,4 +1211,12 @@ a.btn__Global.bg__red:hover {
     height: auto !important;
 }
 
+.contact__form {
+padding: 0 !important;
+}
+
+.contact__form .mktoRadioList {
+width: 216px !important;
+}
+
 /*end*/
