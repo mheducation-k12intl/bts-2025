@@ -1228,6 +1228,13 @@ margin-top: -285px;
 padding-top: 340px;
 }
 
+.team__area .owl-dots {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row-reverse;
+}
+
 @media only screen and (max-width: 767px){
 .program__resource {
 margin-top: -382px;
