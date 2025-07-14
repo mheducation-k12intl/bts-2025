@@ -1219,4 +1219,20 @@ padding: 0 !important;
 width: 216px !important;
 }
 
+.school__singleSlide .mktoGen.mktoImg {
+display: block;
+}
+
+.program__resource {
+margin-top: -285px;
+padding-top: 340px;
+}
+
+@media only screen and (max-width: 767px){
+.program__resource {
+margin-top: -382px;
+padding-top: 385px;
+}
+}
+
 /*end*/
