@@ -1242,4 +1242,46 @@ padding-top: 385px;
 }
 }
 
+/* Large Layout: 1253px. */
+@media only screen and (min-width: 1000px) and (max-width: 1253px){
+.school__slider .school__cardTxt h4 {
+font-size: 20px;
+}
+
+
+
+.school__singleSlide .school__cardTxt {
+padding: 20px;
+min-height: 280px;
+}
+
+
+
+.program__resource {
+margin-top: -280px;
+padding-top: 340px;
+}
+
+
+
+.activity__slider .school__cardTxt h4 {
+font-size: 20px;
+}
+.activity__card {
+padding: 20px;
+}
+
+
+
+.activity__singleSlide .school__cardTxt {
+min-height: 225px;
+position: relative;
+}
+.activity__singleSlide .school__cardTxt .download__link {
+position: absolute;
+bottom: 0;
+width: 100%;
+left: 0;
+}
+}
 /*end*/
