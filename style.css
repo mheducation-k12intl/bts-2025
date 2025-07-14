@@ -1218,7 +1218,9 @@ padding: 0 !important;
 .contact__form .mktoRadioList {
 width: 216px !important;
 }
-
+.contact__form .mktoRadioList {
+width: 215px !important;
+}
 .school__singleSlide .mktoGen.mktoImg {
 display: block;
 }
@@ -1282,6 +1284,38 @@ position: absolute;
 bottom: 0;
 width: 100%;
 left: 0;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+.school__singleSlide .school__cardTxt {
+padding: 20px;
+min-height: 270px;
+}
+}
+
+
+
+@media only screen and (min-width: 661px) and (max-width: 767px){
+.activity__card .school__cardTxt {
+min-height: 225px;
+padding-bottom: 25px;
+}
+
+.activity__slider .download__link {
+position: absolute;
+bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 732px) and (max-width: 894px){
+.school__singleSlide .school__cardTxt {
+padding: 20px;
+min-height: 270px;
+}
+div#RESOURCES {
+padding-top: 360px;
+margin-top: -311px;
 }
 }
 /*end*/
