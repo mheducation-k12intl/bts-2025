@@ -1235,10 +1235,17 @@ justify-content: center;
 flex-direction: row-reverse;
 }
 
+.school__singleSlide .school__cardTxt {
+min-height: 300px;
+}
+
+.school__card .school__cardTxt h4 {
+font-size: 21px;
+}
 @media only screen and (max-width: 767px){
 .program__resource {
-margin-top: -382px;
-padding-top: 385px;
+margin-top: -300px;
+padding-top: 355px;
 }
 }
 
