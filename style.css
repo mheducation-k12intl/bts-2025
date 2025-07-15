@@ -172,7 +172,7 @@ a.btn__Global:hover {
 
 .section__title h2 {
     color: #000;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .school__area {
@@ -1245,7 +1245,7 @@ padding-top: 385px;
 /* Large Layout: 1253px. */
 @media only screen and (min-width: 1000px) and (max-width: 1253px){
 .school__slider .school__cardTxt h4 {
-font-size: 20px;
+font-size: 22px;
 }
 
 
