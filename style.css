@@ -1324,4 +1324,12 @@ padding-top: 360px;
 margin-top: -311px;
 }
 }
+
+@media only screen and (max-width: 600px){
+    div#RESOURCES {
+        margin-top: -383px;
+        padding-top: 385px;
+    }
+
+}
 /*end*/
