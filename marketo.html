@@ -1123,7 +1123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="mktoText" mktoName="New Here Subtitle" id="new-here-subtitle">Looking for practical strategies you can use right away — no program required? These free webinars focus on classroom management, lesson design, and effective teaching practices to help you start the year with confidence.</p>
 
               </div>
-              <div class="webinar__grid">
+              <div style="display: none;" class="webinar__grid">
                 <div class="mktoText webinar__item" mktoName="New Here Webinar 1" id="new-here-webinar-1">
                   <a target="_blank" href="https://info.mheducation.com/webinar-ubd.html"><span>Webinar 1</span> <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/program-arrow.svg" alt=""></a>
                   <p>July 22<sup>nd</sup></p>
@@ -1136,6 +1136,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <p>Leading With Calm: Managing Ourselves To Manage the Classroom</p>
                 </div>
               </div>
+
+              <div class="webinar__grid__parent">
+                <div class="webinar__grid">
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 1</span> <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/program-arrow.svg" alt=""></a>
+                    <p>22nd July</p>
+                    <p>Understanding by Design</p>
+                  </div>
+                  <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 2</span> <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/program-arrow.svg" alt=""></a>
+                    <p>20th August </p>
+                    <p>Classroom Management</p>
+                  </div>
+                   <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 1</span> <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/program-arrow.svg" alt=""></a>
+                    <p>22nd July</p>
+                    <p>Understanding by Design</p>
+                  </div>
+                  <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 2</span> <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/program-arrow.svg" alt=""></a>
+                    <p>20th August </p>
+                    <p>Classroom Management</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -1401,6 +1430,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       });
 
     </script>
+
+        <script>
+      const webinar__grid__parent = document.querySelector(".webinar__grid__parent");
+
+      webinar__grid__parent.addEventListener("wheel", (evt) => {
+          evt.preventDefault();
+          webinar__grid__parent.scrollLeft += evt.deltaY;
+      });
+
+    </script>
+
   <script>
         document.getElementById("defaultOpen").click();
 
