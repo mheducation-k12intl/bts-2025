@@ -953,17 +953,31 @@
                 <h2>Not Using Our Programs? <br>These Free Webinars Are for You</h2>
                 <p>Looking for practical strategies you can use right away — no program required? These free webinars focus on classroom management, lesson design, and effective teaching practices to help you start the year with confidence.</p>
               </div>
-              <div class="webinar__grid">
-                <div class="webinar__item">
-                  <a href="#"><span>Webinar 1</span> <img src="assets/img/program-arrow.svg" alt=""></a>
-                  <p>22nd July</p>
-                  <p>Understanding by Design</p>
-                </div>
-                <div class="bdr__dashed"></div>
-                <div class="webinar__item">
-                  <a href="#"><span>Webinar 2</span> <img src="assets/img/program-arrow.svg" alt=""></a>
-                  <p>20th August </p>
-                  <p>Classroom Management</p>
+              <div class="webinar__grid__parent">
+                <div class="webinar__grid">
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 1</span> <img src="assets/img/program-arrow.svg" alt=""></a>
+                    <p>22nd July</p>
+                    <p>Understanding by Design</p>
+                  </div>
+                  <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 2</span> <img src="assets/img/program-arrow.svg" alt=""></a>
+                    <p>20th August </p>
+                    <p>Classroom Management</p>
+                  </div>
+                   <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 1</span> <img src="assets/img/program-arrow.svg" alt=""></a>
+                    <p>22nd July</p>
+                    <p>Understanding by Design</p>
+                  </div>
+                  <div class="bdr__dashed"></div>
+                  <div class="webinar__item">
+                    <a href="#"><span>Webinar 2</span> <img src="assets/img/program-arrow.svg" alt=""></a>
+                    <p>20th August </p>
+                    <p>Classroom Management</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1269,6 +1283,16 @@
       scrollContainer.addEventListener("wheel", (evt) => {
           evt.preventDefault();
           scrollContainer.scrollLeft += evt.deltaY;
+      });
+
+    </script>
+
+    <script>
+      const webinar__grid__parent = document.querySelector(".webinar__grid__parent");
+
+      webinar__grid__parent.addEventListener("wheel", (evt) => {
+          evt.preventDefault();
+          webinar__grid__parent.scrollLeft += evt.deltaY;
       });
 
     </script>

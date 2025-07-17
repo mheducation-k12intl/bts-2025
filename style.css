@@ -522,13 +522,15 @@ a.btn__Global.bg__red:hover {
 .webinar__item p {
     margin-bottom: 0;
 }
-
+.webinar__item a img {
+    transform: translateX(-6px);
+}
 .webinar__item a:hover img {
-    transform: translateX(6px);
+    transform: translateX(0px);
 }
 
 .using__area .section__title {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .using__area .section__title p {
@@ -1329,6 +1331,45 @@ margin-top: -311px;
     div#RESOURCES {
         margin-top: -383px;
         padding-top: 385px;
+    }
+
+}
+
+.webinar__grid__parent {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+    position: relative;
+}
+
+.webinar__grid {
+    display: inline-flex;
+    padding-bottom:30px;
+}
+
+
+.webinar__grid__parent::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #828282;
+}
+
+.webinar__grid__parent::-webkit-scrollbar {
+    height: 4px;
+    background-color: #828282;
+}
+
+
+.webinar__grid__parent::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #E31B22;
+}
+
+@media only screen and (max-width: 767px){
+    .webinar__grid__parent::-webkit-scrollbar-track, 
+    .webinar__grid__parent::-webkit-scrollbar-thumb, 
+    .webinar__grid__parent::-webkit-scrollbar {
+        display: none;
     }
 
 }
