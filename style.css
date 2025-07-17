@@ -487,14 +487,9 @@ a.btn__Global.bg__red:hover {
     height: 520px;
 }
 
-.webinar__grid {
-    display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
-    gap: 30px;
-    margin-top: 32px;
-}
 
-.bdr__dashed {
+
+.webinar__grid__default .bdr__dashed {
     width: 1px;
     background: #D3D3D3;
     display: flex;
@@ -1363,6 +1358,14 @@ margin-top: -311px;
 .webinar__grid__parent::-webkit-scrollbar-thumb {
     border-radius: 0px;
     background-color: #E31B22;
+}
+
+
+.webinar__grid__default .webinar__grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    gap: 30px;
+    margin-top: 32px;
 }
 
 @media only screen and (max-width: 767px){
