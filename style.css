@@ -489,7 +489,8 @@ a.btn__Global.bg__red:hover {
 
 
 
-.webinar__grid__default .bdr__dashed {
+.webinar__grid__default .bdr__dashed, 
+.webinar__grid__parent .bdr__dashed {
     width: 1px;
     background: #D3D3D3;
     display: flex;
@@ -1333,7 +1334,7 @@ margin-top: -311px;
 .webinar__grid__parent {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     width: auto;
     position: relative;
 }
@@ -1341,8 +1342,12 @@ margin-top: -311px;
 .webinar__grid {
     display: inline-flex;
     padding-bottom:30px;
+    gap: 30px;
+    margin-top: 32px;
 }
-
+.webinar__grid__parent .webinar__item {
+    min-width: 250px;
+}
 
 .webinar__grid__parent::-webkit-scrollbar-track {
     border-radius: 10px;

@@ -26,9 +26,11 @@
 }
 
 .using__area {
-    height: 430px;
+    height: 530px;
 }
-
+.webinar__grid__parent .webinar__item {
+    min-width: 190px;
+}
 .using__area .section__title {
     padding-top: 0;
 }
