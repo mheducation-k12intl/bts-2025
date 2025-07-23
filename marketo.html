@@ -71,6 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta class="mktoBoolean" id="show-resources-card-10" mktoName="Show Resources Card 10?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-resources-card-11" mktoName="Show Resources Card 11?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-resources-card-12" mktoName="Show Resources Card 12?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
+    <meta class="mktoBoolean" id="show-platform-section" mktoName="Show Platform Section?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoString" id="carousel-1-youtube-link" mktoName="Carousel 1 YouTube Link" default="#" />
     <meta class="mktoString" id="carousel-2-link" mktoName="Carousel 2 Link" default="#" />
     <meta class="mktoString" id="carousel-2-cta-link" mktoName="Carousel 2 CTA Link" default="https://mh.my.site.com/DTS/s/article/Direct-Login-and-Manual-Rostering-Administrator-Resources" />
@@ -95,7 +96,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- End Marketo Variables -->
   
   <style>
-  	#resources-card-6{
+  	#platform-section{
+    	display:${show-platform-section};
+    }
+    #resources-card-6{
     	display:${show-resources-card-6};
     }
     #resources-card-7{
@@ -255,7 +259,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
        </div>
       <!-- School end -->
-
       <!-- Program -->
        <div id="RESOURCES" class="program__resource">
         <div class="container">
@@ -405,7 +408,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
        </div>
       <!-- Program end -->
-
+	  <section id="platform-section">
       <!-- Platform area start -->
        <div id="PROGRAMS" class="platform__area">
         <div class="container">
@@ -768,7 +771,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
        </div>
       <!-- Tab area end -->
-
+	  </section>
       <!-- Join Cta area start -->
        <div class="join__ctaArea">
         <div class="container">
@@ -880,7 +883,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Join Cta area end -->
 
       <!-- Educator area start -->
-       <div style="background: url(https://mheducation-k12intl.github.io/bts-2025/assets/img/join-bg.jpg);" class="educator__area">
+       <div style="background: url(https://mheducation-k12intl.github.io/bts-2025/assets/img/join-bg.jpg);" class="educator__area" id="join-community">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 offset-lg-6">
