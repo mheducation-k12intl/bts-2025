@@ -1386,4 +1386,103 @@ margin-top: -311px;
     }
 
 }
+
+
+.mktoFormRow:nth-child(5), .mktoFormRow:nth-child(6) {
+    display: inline-block;
+    width: 50%;
+}
+
+.mktoFormRow:nth-child(5) {
+    padding-right: 1% !important;
+}
+
+.mktoFormRow:nth-child(6) {
+    padding-left: 1% !important;
+}
+
+/* .contact__form .mktoRadioList {
+    width: 100% !important;
+}
+
+.contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
+    padding-right: 50px;
+} */
+
+.contact__form input[type="radio"] {
+    transform: scale(1.5) !important;
+}
+
+.contact__txt .section__title {
+    height: 100%;
+    background: #F6F7F2;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact__area {
+    background: none;
+}
+
+.contact__txt .section__title h2, .contact__txt .section__title p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact__form .mktoFormRow input, 
+.contact__form .mktoFormRow textarea, 
+.contact__form .mktoFormRow select {
+    border: 1px solid #828282;
+}
+
+.contact__form .mktoFormRow input, .contact__form .mktoFormRow select {
+    height: 46px !important;
+}
+
+.contact__form .mktoFormRow input[type="radio"] {
+    height: auto !important;
+    border: none !important;
+}
+
+@media only screen and (min-width: 767px){
+    .show__desktop {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .mktoFormRow:nth-child(2), 
+    .mktoFormRow:nth-child(3), 
+    .mktoFormRow:nth-child(5), 
+    .mktoFormRow:nth-child(6) {
+        width: 100%;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    .contact__txt .section__title h2 {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 601px){
+    .contact__form .mktoRadioList {
+        width: 100% !important;
+    }
+
+    .contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
+        padding-right: 50px;
+    }
+
+    .contact__form input[type="radio"] {
+        transform: scale(1.5) !important;
+    }
+}
+
+
 /*end*/
