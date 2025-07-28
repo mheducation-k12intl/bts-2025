@@ -46,6 +46,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })();
 </script>
   <!-- Marketo Variables -->
+    <meta class="mktoString" id="header-img-desktop" mktoName="Header Image Desktop" default="https://mheducation-k12intl.github.io/bts-2025/assets/img/banner-img.png" />
+    <meta class="mktoString" id="header-img-mobile" mktoName="Header Image Mobile" default="https://mheducation-k12intl.github.io/bts-2025/assets/img/banner-img-mobile.png" />
     <meta class="mktoString" id="cta-left-link" mktoName="Top Left CTA Link" default="#resources-section" />
     <meta class="mktoString" id="cta-right-link" mktoName="Top Right CTA Link" default="#new-here-section" />
     <meta class="mktoString" id="card-1-link" mktoName="Card 1 Link" default="#" />
@@ -77,6 +79,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta class="mktoString" id="carousel-2-cta-link" mktoName="Carousel 2 CTA Link" default="https://mh.my.site.com/DTS/s/article/Direct-Login-and-Manual-Rostering-Administrator-Resources" />
     <meta class="mktoString" id="webinar-cta-link" mktoName="Webinar CTA Link" default="#" />
     <meta class="mktoString" id="educators-cta-link" mktoName="Educators CTA Link" default="#" />
+    <meta class="mktoString" id="join-image-desktop" mktoName="Join Image Desktop" default="https://mheducation-k12intl.github.io/bts-2025/assets/img/join-img-left.png" />
+    <meta class="mktoString" id="join-image-mobile" mktoName="Join Image Mobile" default="https://mheducation-k12intl.github.io/bts-2025/assets/img/join-mobile-img.png" />
     <meta class="mktoBoolean" id="show-customer-team-4" mktoName="Show Customer Team 4?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-customer-team-5" mktoName="Show Customer Team 5?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
     <meta class="mktoBoolean" id="show-customer-team-6" mktoName="Show Customer Team 6?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show" />
@@ -186,11 +190,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="banner__rightImg hide__mobile">
-          <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/banner-img.png" alt="">
+          <img src="${header-img-desktop}" alt="">
         </div>
 
         <div class="banner__rightImg show__mobile">
-          <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/banner-img-mobile.png" alt="">
+          <img src="${header-img-mobile}" alt="">
         </div>
       </div>
       <!-- end -->
@@ -898,10 +902,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
         <div class="educator__img hide__mobile">
-          <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/join-img-left.png" alt="">
+          <img src="${join-image-desktop}" alt="">
         </div>
         <div class="educator__img show__mobile">
-          <img src="https://mheducation-k12intl.github.io/bts-2025/assets/img/join-mobile-img.png" alt="">
+          <img src="${join-image-mobile}" alt="">
         </div>
        </div>
       <!-- Educator area end -->
