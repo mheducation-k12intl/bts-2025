@@ -1447,7 +1447,7 @@ margin-top: -311px;
     border: none !important;
 }
 
-@media only screen and (min-width: 767px){
+@media only screen and (max-width: 767px){
     .show__desktop {
         display: none;
     }
@@ -1475,13 +1475,17 @@ margin-top: -311px;
         width: 100% !important;
     }
 
-    .contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
+    /* .contact__form .mktoRadioList label#LblmktoRadio_330724_0 {
         padding-right: 50px;
-    }
+    } */
 
     .contact__form input[type="radio"] {
         transform: scale(1.5) !important;
     }
+    .contact__form .mktoFormRow input[type="radio"][value="New"] {
+        margin-left: 50px;
+    }
+
 }
 
 
