@@ -1426,8 +1426,13 @@ margin-top: -311px;
 .contact__area {
     background: none;
 }
-
+/*
 .contact__txt .section__title h2, .contact__txt .section__title p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+*/
+.wrap__contactTxt {
     padding-left: 30px;
     padding-right: 30px;
 }
