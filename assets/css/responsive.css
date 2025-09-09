@@ -546,6 +546,11 @@ a.btn__Global {
 .article__area {
     height: 400px;
 }
+
+.article__area_blog {
+    height: 200px;
+}
+
 .articles__bg img {
     height: auto;
 }
