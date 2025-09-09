@@ -106,7 +106,15 @@ h6 {
     overflow: hidden;
 }
 
-.article__area .article__area_blog{
+.article__area {
+    background-size:  cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 480px;
+    padding: 50px 0px;
+}
+
+.article__area_blog {
     background-size:  cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -918,7 +926,12 @@ a.btn__Global.bg__red:hover {
     transform: rotate(90deg);
 }
 
-.article__area .article__area_blog {
+.article__area {
+    padding: 0;
+    overflow: hidden;
+}
+
+.article__area_blog {
     padding: 0;
     overflow: hidden;
 }
@@ -935,7 +948,13 @@ a.btn__Global.bg__red:hover {
     position: relative;
 }
 
-.article__area .article__area_blog .banner__left .logo {
+.article__area .banner__left .logo {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.article__area_blog {
     position: absolute;
     left: 0;
     top: 50px;
