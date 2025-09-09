@@ -245,7 +245,7 @@
 }
 
 
-.article__area {
+.article__area .article__area_blog {
     height: 446px;
 }
 
@@ -539,7 +539,7 @@ a.btn__Global {
     line-height: 42px;
 }
 
-.article__area .banner__left .logo {
+.article__area .article__area_blog .banner__left .logo {
     position: inherit;
 }
 
@@ -560,7 +560,7 @@ a.btn__Global {
     bottom: 0;
 }
 
-.article__area {
+.article__area .article__area_blog {
     position: relative;
     z-index: 1;
 }
@@ -583,7 +583,7 @@ a.btn__Global {
 .header__area {
     padding-top: 15px;
 }
-.article__area .banner__left .logo{
+.article__area .article__area_blog .banner__left .logo{
     top: 15px;
 }
 .section__title h1, .section__title h2 {
