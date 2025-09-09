@@ -560,6 +560,10 @@ a.btn__Global {
     bottom: 0;
 }
 
+.articles__bg_gen_blog_mobile {
+    width: 100%;
+}
+
 .article__area {
     position: relative;
     z-index: 1;
