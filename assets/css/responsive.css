@@ -547,6 +547,10 @@ a.btn__Global {
     height: 400px;
 }
 
+.generic_blog {
+    height: 200px !important;
+}
+
 .articles__bg img {
     height: auto;
 }
