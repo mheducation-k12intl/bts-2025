@@ -246,7 +246,7 @@
 
 
 .article__area {
-    height: 446px;
+    height: auto;
 }
 
 .using__area:after{
