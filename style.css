@@ -950,7 +950,9 @@ a.btn__Global.bg__red:hover {
 
 .article__area .banner__left .logo {
     position: absolute;
-    left: 0;
+    width: 80px;
+    height: 80px;
+    left: 10px;
     top: 50px;
 }
 
