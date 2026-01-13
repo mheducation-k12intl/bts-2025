@@ -26,7 +26,7 @@
 }
 
 .using__area {
-    height: 530px;
+    height: auto;
 }
 .webinar__grid__parent .webinar__item {
     min-width: 190px;
